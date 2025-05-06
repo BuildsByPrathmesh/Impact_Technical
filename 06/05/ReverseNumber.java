@@ -1,3 +1,4 @@
+
 // Wap to reverse a 3 digit number
 import java.util.Scanner;
 public class ReverseNumber {
