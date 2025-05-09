@@ -16,5 +16,6 @@ public class TrendyNumber {
                 System.out.println("Not a Trendy Number.");
             }
         }
+        sc.close();
     }
 }
