@@ -16,5 +16,6 @@ public class StrongNumber {
             sum=sum+product;
         }
         System.out.println(sum);
+        sc.close();
     }
 }

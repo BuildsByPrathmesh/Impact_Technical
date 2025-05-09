@@ -24,9 +24,7 @@ public class KaprekarNumber {
         }else{
             System.out.println(" Not a Kaprekar Number");
         }
-
-
-
+        sc.close();
     }
     
 }
