@@ -7,6 +7,10 @@ public class ArrayRemoveDuplicate {
         for (int i = 0; i < n; i++) {
             arr[i]=sc.nextInt();
         }
+
+
+
+        
         for (int i = 0; i < n; i++) {
             int flag=0;
             for (int index = 0; index < i; index++) {
@@ -15,7 +19,6 @@ public class ArrayRemoveDuplicate {
                 }
             }if (flag==0) {
                 System.out.println(arr[i]);
-                flag=0;
             }
         }
         sc.close();
