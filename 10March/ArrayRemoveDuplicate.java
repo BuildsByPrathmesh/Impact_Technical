@@ -8,9 +8,6 @@ public class ArrayRemoveDuplicate {
             arr[i]=sc.nextInt();
         }
 
-
-
-        
         for (int i = 0; i < n; i++) {
             int flag=0;
             for (int index = 0; index < i; index++) {
