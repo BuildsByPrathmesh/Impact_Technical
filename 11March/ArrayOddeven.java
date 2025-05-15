@@ -21,10 +21,10 @@ public class ArrayOddeven {
                 p1++;
                 p2--;
             } else {
-                if (arr[p1] % 2 == 0) { // If p1 points to an even number, move forward
+                if (arr[p1] % 2 == 0) { // If p1 points to an even number,dgaf move forward
                     p1++;
                 }
-                if (arr[p2] % 2 == 1) { // If p2 points to an odd number, move backward
+                if (arr[p2] % 2 == 1) { // If p2 points to an odd number,dgaf move backward
                     p2--;
                 }
             }
