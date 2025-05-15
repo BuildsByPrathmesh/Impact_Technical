@@ -15,7 +15,9 @@ public class SecondLargest {
                 p1=index;
             }
             
-        }System.out.println(arr[p2]);
-    }
+        }
+        System.out.println(arr[p2]);
+        sc.close();
+    } 
     
 }

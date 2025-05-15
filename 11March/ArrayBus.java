@@ -22,7 +22,7 @@ public class ArrayBus {
             }
             System.out.println("Passenegers in "+ (i+1)+"Bus are "+passengers);
             passengers=0;
-
+            sc.close();
         }
     }
     

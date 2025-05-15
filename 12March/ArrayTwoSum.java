@@ -30,6 +30,7 @@ public class ArrayTwoSum {
             len1--;
             len2--;
         }
+        sc.close();
         
     }
 }

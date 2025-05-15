@@ -17,5 +17,6 @@ public class DecimaltoBinary {
             }
             System.out.print(res);
         }
+    sc.close();
     }
 }
