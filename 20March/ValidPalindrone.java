@@ -5,14 +5,15 @@ public class ValidPalindrone {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
         String pali="";
-        int c=0;
         // s = s.toLowerCase();
         for (int index = s.length()-1; index >-1 ; index--) {
             pali=pali+s.charAt(index);
         }
-        for(int i=0;i< s.length()-1;i++){
+        int count()
+        for(int i=0;i< s.length();i++){
             if (s.charAt(i)!=pali.charAt(i)) {
-
+                System.out.println("not palindrome");
+                return;
             }
         }
         System.out.println("palindrome");
