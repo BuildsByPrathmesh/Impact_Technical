@@ -26,6 +26,7 @@ public class RotateMatrixClockWise {
         //     }System.out.println();
             
         // }
+        sc.close();
     }
     
 }
