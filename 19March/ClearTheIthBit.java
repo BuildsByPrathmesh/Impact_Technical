@@ -6,7 +6,9 @@ public class ClearTheIthBit {
         int index=sc.nextInt();
 
         int a=1<<index;
+
         num=num&(~a);
+        System.err.println(~a);
         System.out.println(num);
         sc.close();
     }
